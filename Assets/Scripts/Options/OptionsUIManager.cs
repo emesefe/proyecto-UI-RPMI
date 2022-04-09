@@ -98,4 +98,16 @@ public class OptionsUIManager : MonoBehaviour
         return false;
 
     }
+
+    public void MyToggle(bool b)
+    {
+        if (b)
+        {
+            Debug.Log("Activado");
+        }
+        else
+        {
+            Debug.Log("Desactivado");
+        }
+    }
 }

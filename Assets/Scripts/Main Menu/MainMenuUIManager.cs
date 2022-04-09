@@ -22,4 +22,5 @@ public class MainMenuUIManager : MonoBehaviour
         // Salimos de la aplicación (solo funcionará en la Build)
         Application.Quit();
     }
+    
 }
